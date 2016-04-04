@@ -82,7 +82,7 @@ sequence:
 
 When I visit `/fibonacci/7`, I should see the first 7 terms:
 
-<pre>1, 1, 2, 3, 5, 8, 13, 21</pre>
+<pre>1, 1, 2, 3, 5, 8, 13</pre>
 
 (Note: `0` is the 0<sup>th</sup> term of the Fibonacci Sequence. The first and
 second term are both `1`.
