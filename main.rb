@@ -22,14 +22,14 @@ end
 # localhost:4567/shouted-greeting-b?name=andrew
 # I should see:
 # HELLO, ANDREW!
-get "/shouted-greeting-b?:name" do
-  "Hello, #{params['name'].upcase}!"
+get "/shouted-greeting-b" do
+  "Hello, #{params['dog'].upcase}!"
 end
 
 # localhost:4567/shouted-greeting-b?name=andrew&greeting=howdy
 # I should see:
 # HOWDY, ANDREW!
-get "/shouted-greeting-:name" do
+get "/shouted-greeting" do
   "Hello, #{params['name'].upcase}!"
 end
 #################################################
